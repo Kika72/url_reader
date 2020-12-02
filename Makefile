@@ -1,4 +1,5 @@
 test:
+	go mod tidy
 	go test -v ./...
 
 build:
